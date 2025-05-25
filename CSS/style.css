@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    font-family: "Playfair Display", "Roboto", sans-serif;
+}
+
+
+.container{
+    max-width: 1128px;
+    width: 80%;
+    margin: 10em;
+    /*border: 4px solid black;*/
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    /*border: 4px solid green;*/
+}
+
+.container h5{
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+     letter-spacing: 0.5em;
+     font-weight: 300;
+}
+
+.container h1{
+    font-family: "Playfair Display";
+    text-align: center;
+    color: #824936;
+    font-size: 6rem;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+
+
+.container h2{
+    font-family: "Playfair Display";
+    text-align: center;
+    color: #824936;
+    font-size: 4rem;
+    width: 60%;
+}
+
+.first_section{
+    min-height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: #F3EED9;
+    /*border: 2px solid red;*/
+}
+
+
+.second_section{
+    /*border: 5px solid pink;*/
+    display: flex;
+    justify-content: center;
+}
+
+.second_section h2{
+    font-size: 3.6rem;
+    text-align: center;
+    color: #824936;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.paragraphs{
+    /*border: 10px solid blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    line-height: 2em;
+    color: #222C2A;
+}
+
+.paragraphs p{
+    /*border: 3px solid yellow;*/
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: start;
+    font-size: 1.75rem;
+    margin-top: 2em;
+}
+
+.third_section{
+    background-color: #222C2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.third_section--text h2{
+    color: #F3EED9;
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.third_section--text{width: 50%;}
+
+.third_section--text p {
+  font-family: "Roboto";
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+.fourth_section{
+    background-color: #824936;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth_section--text{width: 50%;}
+
+
+.fourth_section--text h2{
+    color: #F3EED9;
+}
+
+.fourth_section--text p{
+    font-family: "Roboto";
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-top: 1em;
+}
